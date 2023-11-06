@@ -1,0 +1,64 @@
+{
+  "menu": [
+    {
+      "nombre": "Orden de compra",
+      "tooltip": "OC",
+      "path": "/",
+      "icon": "fa-icon",
+      "submenus": [
+        {
+          "nombre": "Crear",
+          "path": "/about",
+          "icon": "fa-icon-submenu", 
+          "submenus": [
+            {
+              "nombre": "Crear",
+              "path": "/otra/parte/seccion",
+              "icon": "fa-icon-submenu"
+            },
+            {
+              "nombre": "Consultar",
+
+              "icon": "fa-icon-submenu",
+              "submenus": [
+                {
+                  "nombre": "Crear",
+                  "path": "/pages/oc/crear.vue",
+                  "icon": "fa-icon-submenu"
+                },
+                {
+                  "nombre": "Consultar",
+                  "path": "/pages/oc/consultar.vue",
+                  "icon": "fa-icon-submenu" 
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Consultar",
+          "path": "/pages/oc/consultar.vue",
+          "icon": "fa-icon-submenu"
+        }
+      ]
+    },
+    {
+      "nombre": "Pedido",
+      "tooltip": "PED",
+      "path": "/",
+      "icon": "fa-icon",
+      "submenus": [
+        {
+          "nombre": "Crear",
+          "path": "/landing",
+          "icon": "fa-icon-submenu" 
+        },
+        {
+          "nombre": "Consultar",
+          "path": "/404",
+          "icon": "fa-icon-submenu"
+        }
+      ]
+    }
+  ]
+}
